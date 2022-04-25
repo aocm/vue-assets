@@ -6,10 +6,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 
 <template>
   <div id="helloworld-view">
-    <img
-      alt="Vue logo"
-      src="../assets/logo.png"
-    >
+    <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   </div>
 </template>

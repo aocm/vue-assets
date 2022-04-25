@@ -1,13 +1,8 @@
-import {
-  createMemoryHistory,
-  createRouter,
-  createWebHistory,
-  RouteRecordRaw,
-} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 // 1. Define route components.
 // These can be imported from other files
-import Home from '../pages/Home.vue'
+import Home from '../pages/HomeView.vue'
 import HelloWorldPage from '../pages/HelloWorldPage.vue'
 
 // 2. Define some routes
